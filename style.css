@@ -1,0 +1,51 @@
+
+
+h1{
+    color: #fafafa;
+    font-family: unset;
+}
+
+
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #000000;
+
+}
+
+
+
+
+
+.nav-link {
+    text-decoration: none;
+    color: #f50000;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+
+.carousel-item img {
+    width: 200px;;
+    height: 700px;
+    object-fit: cover;
+}
+
+
+.social-link {
+    padding: 6px;
+   
+}
+
+
+
+

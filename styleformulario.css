@@ -1,0 +1,62 @@
+/* Estilos para el acordeón */
+
+.accordion-item {
+    margin-bottom: 20px;
+  }
+  
+  .accordion-button {
+    background-color: #cbd3db;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .accordion-button:focus {
+    outline: none;
+  }
+  
+  .accordion-button:hover {
+    background-color: #e9ecef;
+  }
+  
+  .accordion-button.collapsed {
+    background-color: #e9ecef;
+  }
+  
+  .accordion-body {
+    padding: 15px 20px;
+    border: 1px solid #0473e2;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+    color: #555;
+  }
+  
+  /* Icono de flecha */
+  .accordion-button::after {
+    content: '\02795';
+    font-size: 0.8em;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .accordion-button.collapsed::after {
+    content: '\02795';
+  }
+  
+  .accordion-button:not(.collapsed)::after {
+    content: '\02796';
+  }
+  
+
+  .nav-link:hover {
+    background-color: #ff0000;
+    border-radius: 5px;
+}

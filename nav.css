@@ -1,0 +1,45 @@
+.navbar {
+    background-color: #343a40; /* Color de fondo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-bottom: 2px solid #dc3545; /* Borde inferior rojo */
+  }
+
+  .navbar-brand img {
+    max-height: 50px; /* Tamaño máximo del logo */
+  }
+
+  .navbar-toggler {
+    border-color: #fff; /* Color del icono del toggler */
+  }
+
+  .navbar-toggler-icon {
+    background-color: #fff; /* Color del icono del toggler */
+  }
+
+  .navbar-nav .nav-link {
+    color: #f10a0a; /* Color del texto de los enlaces */
+    font-weight: 500; /* Grosor de la fuente */
+    margin-right: 15px; /* Espacio entre enlaces */
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #000000; /* Color del texto de enlace al pasar el ratón */
+  }
+
+  .dropdown-menu {
+    background-color: #f7f7f7; /* Color de fondo del menú desplegable */
+  }
+
+  .dropdown-item {
+    color: #000000; /* Color del texto de los elementos del menú desplegable */
+  }
+
+  .dropdown-item:hover {
+    background-color: #dc3545; /* Color de fondo al pasar el ratón */
+    color: #fff; /* Color del texto al pasar el ratón */
+  }
+
+  .nav-link:hover {
+    background-color: #ff0000;
+    border-radius: 5px;
+}

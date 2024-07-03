@@ -1,0 +1,131 @@
+.nav-link:hover {
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background-color: #000000;
+
+}
+
+
+
+
+
+
+
+/* Estilos generales del footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding:  60px;
+  }
+  
+  .footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fafafa;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #ff0000;
+  }
+  
+  .socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .socials li {
+    margin: 0 10px;
+  }
+  
+  
+  
+ 
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #fffcfc;
+    border-radius: 4px;
+    color: #eeeeee;
+  }
+  
+  .contact-input:focus {
+    outline: none;
+    border-color: #085dfa;
+  }
+  
+  .textarea {
+    resize: vertical;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    background-color: #ff0a0a;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff0b0b;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 12px;
+    color: #fff1f1;
+  }
+  
